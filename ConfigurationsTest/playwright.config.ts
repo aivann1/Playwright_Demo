@@ -22,7 +22,8 @@ const config: PlaywrightTestConfig = {
             }
         }
     ],
-
+    
+    testMatch:["**.test.ts"],
     retries: 1,
     workers: 2,
     timeout: 10000,
